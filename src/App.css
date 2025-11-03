@@ -1,8 +1,8 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  place-items: center;
+  margin: 0 auto;
 }
 
 .logo {
@@ -40,3 +40,55 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
+/* Centers everything on the page */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button container under the card */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Buttons style */
+.navigation-buttons button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Hover effect */
+.navigation-buttons button:hover:not(:disabled) {
+  background-color: #ff8533;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 102, 0, 0.4);
+}
+
+/* Disabled button look */
+.navigation-buttons button:disabled {
+  background-color: #555;
+  color: #aaa;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+

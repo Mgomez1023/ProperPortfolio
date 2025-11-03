@@ -20,33 +20,32 @@ const BaseballCardResume = () => {
 
         <section className="bio">
           <p>
-            Passionate about software development, data science, and AI.
-            I enjoy building projects that combine creativity and problem-solving.
+            Passionate about software development, AI, and Baseball.
+            I enjoy building projects that combine creativity and usability.
           </p>
         </section>
 
         <section className="card-section">
           <h3>Education</h3>
           <ul>
-            <li>B.S. in Computer Science – University of Illinois Chicago</li>
-            <li>A.A.S. in Computer Science – Moraine Valley Community College</li>
+            <li>B.S Computer Science – University of Illinois Chicago</li>
+            <li>A.A.S. Computer Science – Moraine Valley Community College</li>
           </ul>
         </section>
 
         <section className="card-section">
           <h3>Projects</h3>
           <ul>
-            <li>AI Image Classifier</li>
-            <li>Portfolio Website</li>
             <li>Vehicle Management System</li>
+            <li>EatThis - Food Picker</li>
+            <li>Baseball Stats Tracker</li>
           </ul>
         </section>
 
         <section className="card-section">
-          <h3>Experience</h3>
+          <h3>Work Experience</h3>
           <ul>
-            <li>Software Intern – XYZ Corp</li>
-            <li>Research Assistant – UIC CS Department</li>
+            <li>Software Engineer Intern - Chicago Tire and Auto</li>
             <li>Package Handler – UPS</li>
           </ul>
         </section>
@@ -54,14 +53,12 @@ const BaseballCardResume = () => {
         <section className="skills-section">
           <h3>Skills</h3>
           <div className="skills-grid">
-            <span>Python</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Git</span>
-            <span>Machine Learning</span>
-            <span>PyTorch</span>
+            <span className="React">React</span>
+            <span className="Javascript">TypeScript</span>
+            <span className="HTML">HTML</span>
+            <span className="CSS">CSS</span>
+            <span className="Python">Python</span>
+
           </div>
         </section>
       </div>

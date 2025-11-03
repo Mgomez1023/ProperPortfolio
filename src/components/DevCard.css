@@ -1,0 +1,129 @@
+/*
+.dev-card {
+  width: 550px;
+  height: 70%;
+  background: linear-gradient(180deg, #0a192f 0%, #112240 100%);
+  border-radius: 12px;
+  border: 2px solid #ff6600;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dev-card::before,
+.dev-card::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff6600;
+    border-radius: 4px;
+}
+
+.dev-card::before {
+  top: 10px;
+  left: 10px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.dev-card::after {
+  bottom: 10px;
+  right: 10px;
+  border-left: none;
+  border-top: none;
+}
+
+.dev-card .corner {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ff6600;
+  border-radius: 4px;
+}
+
+.dev-card .corner.top-right {
+  top: 10px;
+  right: 10px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.dev-card .corner.bottom-left {
+  bottom: 10px;
+  left: 10px;
+  border-right: none;
+  border-top: none;
+}
+
+
+.photo-frame {
+  width: 80%;
+  height: 50%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 5px solid #ff6600;
+  margin: 20px 0 auto;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+}
+
+.profile-photo {
+  width: 95%;
+  height: 95%;
+    object-fit: cover;
+  padding: 8px 3px 3px 3px;
+  border-radius: 15px;
+}
+
+.name-section {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-top: 1px solid #ff6600;
+  border-bottom: 1px solid #ff6600;
+  width: 70%;
+  line-height: 1rem;
+  background: transparent;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  letter-spacing: 1px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: auto;
+  padding-bottom: 10px;
+}
+
+.tech-logo {
+  width: 36px;
+  height: 36px;
+  background: #1e293b;
+  padding: 6px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background 0.3s;
+}
+
+.tech-logo:hover {
+  transform: scale(1.1);
+  background: #334155;
+}
+/*
