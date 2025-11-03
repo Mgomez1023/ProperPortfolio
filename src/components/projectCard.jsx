@@ -5,7 +5,7 @@ import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
 import profilePic from "../assets/image2.jpeg";
-import "./projectFile.css";
+import "./ProjectFile.css";
 
 const ProjectCard = () => {
   return (
