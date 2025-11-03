@@ -6,7 +6,7 @@ import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
 import "./ProjectCard.css";
 
-const ProjectCard = () => {
+const projectCard = () => {
   return (
     <div className="project-card-container">
       <div className="project-card">
@@ -71,4 +71,4 @@ const ProjectCard = () => {
   );
 };
 
-export default ProjectCard;
+export default projectCard;

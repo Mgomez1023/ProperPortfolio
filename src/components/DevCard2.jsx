@@ -5,8 +5,8 @@ import profilePic from "../assets/image2.jpeg";
 import moraineLogo from "../assets/Moraine.png";
 import uicLogo from "../assets/download.png";
 import BaseballCardResume from "./BaseballCardResume";
-import ProjectCard from "./projectCard";
-import FaceCard from "./faceCard"
+import ProjectCard from "./projectCard.jsx"
+import FaceCard from "./faceCard";
 
 
 function DevCard2({ cardIndex }) {
