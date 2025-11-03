@@ -1,9 +1,7 @@
 import React from "react";
 import "./DevCard.css";
 import "./BaseballCardResume.css";
-import profilePic from "../assets/image2.jpeg";
-import moraineLogo from "../assets/Moraine.png";
-import uicLogo from "../assets/download.png";
+import "./ProjectCard.css";
 import BaseballCardResume from "./BaseballCardResume";
 import ProjectCard from "./projectCard.jsx"
 import FaceCard from "./faceCard";
