@@ -6,7 +6,7 @@ import DevCard from './components/DevCard.jsx'
 import DevCard2 from './components/DevCard2.jsx'
 import './App.css'
 // Ensure ProjectCard styles are included in production builds (avoid potential case/tree-shake issues)
-import './components/projectCard.css'
+import './components/ProjectCard.css'
 
 function App() {
   const [cardIndex, setCardIndex] = useState(0);
