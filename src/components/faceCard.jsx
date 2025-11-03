@@ -7,7 +7,7 @@ import pythonLogo from "../assets/python-logo.png";
 import moraineLogo from "../assets/Moraine.png";
 import uicLogo from "../assets/download.png";
 import profilePic from "../assets/image2.jpeg";
-import "./ProjectCard.css";
+import "./projectCard.css";
 
 const FaceCard = () => {
   return (

@@ -4,9 +4,9 @@ import typescriptLogo from "../assets/typescript.png";
 import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
-import "./ProjectCard.css";
+import './projectCard.css';
 
-const projectCard = () => {
+const ProjectCard = () => {
   return (
     <div className="project-card-container">
       <div className="project-card">
@@ -71,4 +71,4 @@ const projectCard = () => {
   );
 };
 
-export default projectCard;
+export default ProjectCard;

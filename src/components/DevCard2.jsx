@@ -1,7 +1,6 @@
 import React from "react";
 import "./DevCard.css";
 import "./BaseballCardResume.css";
-import "./ProjectCard.css";
 import BaseballCardResume from "./BaseballCardResume";
 import ProjectCard from "./projectCard.jsx"
 import FaceCard from "./faceCard";
