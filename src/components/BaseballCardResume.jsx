@@ -47,14 +47,6 @@ const BaseballCardResume = () => {
           </ul>
         </section>
 
-        <section className="card-section">
-          <h3>Work Experience</h3>
-          <ul>
-            <li>Software Engineer Intern - Chicago Tire and Auto</li>
-            <li>Package Handler – UPS</li>
-          </ul>
-        </section>
-
         <section className="skills-section">
           <h3>Skills</h3>
           <div className="skills-grid">
