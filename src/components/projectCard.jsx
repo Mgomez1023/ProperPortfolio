@@ -4,7 +4,6 @@ import typescriptLogo from "../assets/typescript.png";
 import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
-import './projectCard.css';
 
 const ProjectCard = () => {
   return (
