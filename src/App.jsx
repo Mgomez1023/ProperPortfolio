@@ -7,23 +7,22 @@ import DevCard2 from './components/DevCard2.jsx'
 import './App.css'
 
 function App() {
-  const [isFlipped, setIsFlipped] = useState(false)
+  const [cardIndex, setCardIndex] = useState(0);
 
-  const handleBack = () => setIsFlipped(false);
-  const handleNext = () => setIsFlipped(true);
-
+  const handleNext = () => setCardIndex((prev) => Math.min(prev + 1, 2));
+  const handleBack = () => setCardIndex((prev) => Math.max(prev - 1, 0));
 
   return (
     <div className="app-container">
       {/* This is the flipping card */}
-      <DevCard2 isFlipped={isFlipped} />
+      <DevCard2 cardIndex={cardIndex} />
 
       {/* Navigation buttons */}
       <div className="navigation-buttons">
-        <button onClick={handleBack} disabled={!isFlipped}>
+        <button onClick={handleBack} disabled={cardIndex == 0}>
           ◀ Back
         </button>
-        <button onClick={handleNext} disabled={isFlipped}>
+        <button onClick={handleNext} disabled={cardIndex == 2}>
           Next ▶
         </button>
       </div>

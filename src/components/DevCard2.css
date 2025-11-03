@@ -1,36 +1,83 @@
 .card-container {
-  perspective: 1000px; /* Adds 3D depth */
-  cursor: pointer;
+  perspective: 1200px; /* Adds 3D depth */
+  position: relative;
 }
 
 .card-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.8s;
+  transition: transform 1s ease-in-out;
   transform-style: preserve-3d;
 }
 
-.card-inner.flipped {
-  transform: rotateY(180deg);
-}
-
-/* Front and Back faces */
-.card-front,
-.card-back {
+.card-face {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; /* hides the back when facing away */
+  backface-visibility: hidden; /* Hides the back side when rotated */
   top: 0;
   left: 0;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
-/* Back side flips 180 degrees */
-.card-back {
+/* 3-card flipping animation */
+.card-0 {
+  transform: rotateY(0deg);
+}
+
+.card-1 {
   transform: rotateY(180deg);
 }
 
+.card-2 {
+  transform: rotateY(360deg);
+}
+
+/* FRONT FACE */
+.card-front {
+  transform: rotateY(0deg);
+  z-index: 3;
+}
+
+/* BACK FACE */
+.card-back {
+  transform: rotateY(180deg);
+  z-index: 2;
+}
+
+/* THIRD FACE (Projects) */
+.card-third {
+  transform: rotateY(360deg);
+  /* keep on top during transitions to avoid underlying faces popping in */
+  z-index: 4;
+  /* Default: when hiding, delay the opacity/visibility so the 3D rotation completes first */
+  transition: opacity 0.5s ease 1s, visibility 0s linear 1s, transform 0.5s ease 1s;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Keep the projects card visually present (but non-interactive) while the container is rotating away from card-2.
+   We only fade it out after the rotation duration (handled by the transition delay above) to prevent the front face
+   from briefly appearing during the flip. */
+.card-inner:not(.card-2) .card-third {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  /* don't immediately change stacking; keep it on top until opacity transition finishes */
+  transform: rotateY(360deg) translateZ(-10px);
+}
+
+/* When the third card is active, bring it forward immediately (no delay) */
+.card-inner.card-2 .card-third {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 4;
+  transform: rotateY(360deg) translateZ(0);
+  transition: opacity 0.5s ease 0s, visibility 0s linear 0s, transform 0.5s ease 0s;
+}
 /* Optional styling for the back */
 .dev-card.back {
   background: linear-gradient(180deg, #112240 0%, #0a192f 100%);
@@ -40,6 +87,8 @@
   align-items: center;
 }
 
+
+/* --- DESIGN BELOW IS YOUR ORIGINAL STYLE --- */
 
 .dev-card {
   width: 85%;
@@ -55,23 +104,20 @@
   align-items: center;
   color: white;
   position: relative;
-transition: transform 0.3s ease;
-
+  transition: transform 0.3s ease;
   font-family: "Segoe UI", sans-serif;
 }
 
-.dev-card:hover {
-  transform: scale(1.03);
-}
+
 
 .dev-card::before,
 .dev-card::after {
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #ff6600;
-    border-radius: 4px;
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ff6600;
+  border-radius: 4px;
 }
 
 /* Outer orange border corners */
@@ -130,11 +176,12 @@ transition: transform 0.3s ease;
 .profile-photo {
   width: 95%;
   height: 95%;
-    object-fit: cover;
+  object-fit: cover;
   padding: 8px 3px 3px 3px;
   border-radius: 15px;
 }
 
+/* Name Section */
 .name-section {
   position: relative;
   text-align: center;
@@ -146,6 +193,7 @@ transition: transform 0.3s ease;
   background: transparent;
 }
 
+/* Glowing name */
 .name {
   position: relative;
   font-size: 1.5rem;

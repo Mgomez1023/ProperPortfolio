@@ -1,4 +1,9 @@
 import React from "react";
+import reactLogo from "../assets/react.svg";
+import typescriptLogo from "../assets/typescript.png";
+import htmlLogo from "../assets/html.png";
+import cssLogo from "../assets/css.png";
+import pythonLogo from "../assets/python-logo.png";
 import profilePic from "../assets/image2.jpeg";
 import "./BaseballCardResume.css";
 
@@ -53,11 +58,24 @@ const BaseballCardResume = () => {
         <section className="skills-section">
           <h3>Skills</h3>
           <div className="skills-grid">
-            <span className="React">React</span>
-            <span className="Javascript">TypeScript</span>
-            <span className="HTML">HTML</span>
-            <span className="CSS">CSS</span>
-            <span className="Python">Python</span>
+            <span className="React">
+              <img src={reactLogo} alt="React Logo" className="skill-logo" />
+              React
+            </span>
+            <span className="Python">
+              <img src={pythonLogo} alt="Python Logo" className="skill-logo" />
+              Python</span>
+            <span className="CSS">
+              <img src={cssLogo} alt="CSS Logo" className="skill-logo" />
+              CSS</span>
+            <span className="Javascript">
+              <img src={ typescriptLogo } alt="TypeScript Logo" className="skill-logo" />
+              TypeScript
+            </span>
+            <span className="HTML">
+              <img src={htmlLogo} alt="HTML Logo" className="skill-logo" />
+              HTML
+            </span>
 
           </div>
         </section>
