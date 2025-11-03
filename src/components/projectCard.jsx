@@ -13,7 +13,7 @@ const ProjectCard = () => {
       <div className="project-card">
         <header className="project-card-header">
           <img
-            src={profilePic}
+            src={null}
             alt="Profile"
             className="project-profile-pic"
           />
