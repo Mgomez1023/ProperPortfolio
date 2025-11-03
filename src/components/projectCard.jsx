@@ -12,11 +12,6 @@ const ProjectCard = () => {
     <div className="project-card-container">
       <div className="project-card">
         <header className="project-card-header">
-          <img
-            src={null}
-            alt="Profile"
-            className="project-profile-pic"
-          />
           <div className="project-header-text">
             <h1>Martin Gomez</h1>
             <h2>Computer Science Major</h2>
