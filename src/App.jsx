@@ -25,7 +25,7 @@ function App() {
           ◀ Back
         </button>
         <button onClick={handleNext} disabled={cardIndex == 2}>
-          Next ▶
+          Flip ▶
         </button>
       </div>
     </div>

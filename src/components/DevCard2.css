@@ -31,11 +31,11 @@
 }
 
 .card-1 {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 
 .card-2 {
-  transform: rotateY(360deg);
+  transform: rotateY(-360deg);
 }
 
 /* FRONT FACE */

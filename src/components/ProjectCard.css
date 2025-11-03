@@ -69,7 +69,6 @@
   text-align: left;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-  border-top: 1px dashed #ff6600;
 }
 
 .project-card-section h3 {
@@ -222,9 +221,7 @@
 
 .project-card-section {
   text-align: left;
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px dashed #ff6600;
+
 }
 
 .project-card-section h3 {
@@ -233,6 +230,7 @@
   color: #ff6600;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 0.3rem;
+  margin-top: 0;
 }
 
 .project-card-section ul {
@@ -251,7 +249,6 @@
   margin: 0 auto;
   border-top: 2px solid #ff6600;
   width: 100%;
-  padding-top: 0.5rem;
 }
 
 .project-skills-section h3 {
