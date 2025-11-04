@@ -8,6 +8,7 @@ import FaceCard from "./faceCard";
 
 function DevCard2({ cardIndex }) {
 
+
   return (
     <div className="card-container">
 
@@ -28,7 +29,6 @@ function DevCard2({ cardIndex }) {
             <div className=" card-face card-third">
                 <ProjectCard />
             </div>
-            
             
         </div>
 

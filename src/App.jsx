@@ -17,17 +17,18 @@ function App() {
   return (
     <div className="app-container">
       {/* This is the flipping card */}
-      <DevCard2 cardIndex={cardIndex} />
+      <DevCard2 cardIndex={cardIndex} /> 
 
-      {/* Navigation buttons */}
-      <div className="navigation-buttons">
-        <button onClick={handleBack} disabled={cardIndex == 0}>
-          ◀ Back
-        </button>
-        <button onClick={handleNext} disabled={cardIndex == 2}>
-          Flip ▶
-        </button>
-      </div>
+        {/* Navigation buttons */}
+        <div className="navigation-buttons">
+          <button onClick={handleBack} disabled={cardIndex == 0}>
+            ◀ Back
+          </button>
+          <button onClick={handleNext} disabled={cardIndex == 2}>
+            Flip ▶
+          </button>
+        </div>
+
     </div>
   )
 }
