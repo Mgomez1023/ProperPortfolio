@@ -31,20 +31,43 @@
 }
 
 .project-listing {
-  width: 94%;
+  width: 92%;
   height: auto;
-  background-color: #5bb6e0;
-  padding: 10px;
+  margin: 0 auto;
+  background-color: none;
+  border-radius: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  padding: 15px;
 }
 
 .project-listing p {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
   margin-top: 0;
 }
 
 .project-listing-header {
   display: flex;
   gap: 1.5rem;
+}
+
+.loaner-listing-photo {
+  max-width: 100px;
+  max-height: 80px;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.listing-photo {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 16px;
+  margin: 10px auto;
+}
+
+.project-listing-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .project-card-header {
@@ -102,14 +125,14 @@
 
 .project-card-section p {
   font-size: 12px;
-  color: #0a192f;
+  color: #ebebeb;
 }
 
 .project-card-section h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.4rem;
   color: #ff6600;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   margin-top: 0;
 }
 
@@ -124,7 +147,6 @@
   color: #ffffff;
   margin-bottom: 0.3rem;
   padding-left: 20px;
-  background-color: #5bb6e0;
 }
 
 .project-skills-section {
@@ -184,7 +206,7 @@
 .project-paragraph {
   margin-left: 10px;
   width: 50%;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .project-Python {

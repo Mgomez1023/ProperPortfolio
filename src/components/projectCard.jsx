@@ -5,6 +5,9 @@ import profilePic from "../assets/image2.jpeg";
 import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
+import EatThisLogo from "../assets/icon-192x192.png";
+import StatsTracker from "../assets/192x192.png";
+import LoanerVehicle from "../assets/loanerVehicle.jpg";
 
 const ProjectCard = () => {
   return (
@@ -25,7 +28,7 @@ const ProjectCard = () => {
           
           <div className="project-listing">
             <div className="project-listing-header">
-              <h2 className="project-title">EatThis - Food Picker</h2>
+              <h2 className="project-title">Loaner Vehicle Management System</h2>
 
               <div className="project-skills-grid">
                 <div className="project-skills-inner">
@@ -77,10 +80,18 @@ const ProjectCard = () => {
                 </div>
               </div>
             </div>
-            <p className="project-paragraph"> A vehicle management system that 
-              allowed customers to check in and out vehicles, and allowed a 
-              local business to log custumer data.  
-            </p>
+
+
+            <div className="project-listing-content">
+
+              <p className="project-paragraph"> A vehicle management system that 
+                allowed customers to check in and out vehicles, and allowed a 
+                local business to log custumer data.  
+              </p>
+              <img className="loaner-listing-photo" src={LoanerVehicle} alt="EatThis Logo" />
+
+            </div>
+
           </div>
 
           <div className="project-listing">
@@ -138,9 +149,18 @@ const ProjectCard = () => {
               </div>
  
             </div>
-            <p className="project-paragraph"> An app designed to make a food choice. 
+
+            <div className="project-listing-content">
+
+              <p className="project-paragraph"> An app designed to make a food choice. 
               EatThis uses React and API calls to make a user-friendly local 
-              restaurant picker.</p>
+              restaurant picker.
+              </p>
+              <img className="listing-photo" src={EatThisLogo} alt="EatThis Logo" />
+
+            </div>
+
+
           </div>  
 
          <div className="project-listing">
@@ -198,8 +218,16 @@ const ProjectCard = () => {
               </div>
  
             </div>
-            <p className="project-paragraph">A progressive web app designed to help 
-              local teams and players track their personal stats throughout a season</p>
+
+            <div className="project-listing-content">
+
+              <p className="project-paragraph">A progressive web app designed to help 
+              local teams and players track their personal stats throughout a season
+              </p>
+              <img className="listing-photo" src={StatsTracker} alt="StatTracker Logo" />
+
+            </div>
+
           </div>  
         </section>
       </div>
