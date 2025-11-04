@@ -5,6 +5,18 @@
   margin: 0 auto;
 }
 
+.custom-pattern {
+	background:
+		  radial-gradient(circle farthest-side at 0% 50%,#E4E4ED 23.5%,#0000 0)33.6px 48px,
+		  radial-gradient(circle farthest-side at 0% 50%,#1A8FE5 24%,#0000 0)30.4px 48px,
+		  linear-gradient(#E4E4ED 14%,#0000 0, #0000 85%,#E4E4ED 0)0 0,
+		  linear-gradient(150deg,#E4E4ED 24%,#1A8FE5 0,#1A8FE5 26%,#0000 0,#0000 74%,#1A8FE5 0,#1A8FE5 76%,#E4E4ED 0)0 0,
+		  linear-gradient(30deg,#E4E4ED 24%,#1A8FE5 0,#1A8FE5 26%,#0000 0,#0000 74%,#1A8FE5 0,#1A8FE5 76%,#E4E4ED 0)0 0,
+		  linear-gradient(90deg,#1A8FE5 2%,#E4E4ED 0,#E4E4ED 98%,#1A8FE5 0%)0 0 #E4E4ED;
+	background-size: 64px 96px;
+	background-color: #E4E4ED;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
