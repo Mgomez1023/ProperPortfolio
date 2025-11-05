@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import BaseballCardResume from './components/BaseballCardResume.jsx'
 import DevCard from './components/DevCard.jsx'
 import DevCard2 from './components/DevCard2.jsx'
+import { FaChevronLeft } from 'react-icons/fa';
+import { FaChevronRight } from 'react-icons/fa';
 import './App.css'
 // Ensure ProjectCard styles are included in production builds (avoid potential case/tree-shake issues)
 import './components/ProjectCard.css'
@@ -23,10 +25,10 @@ function App() {
         {/* Navigation buttons */}
         <div className="navigation-buttons">
           <button onClick={handleBack} disabled={cardIndex == 0}>
-            ◀ Back
+             <FaChevronLeft />Back
           </button>
           <button onClick={handleNext} disabled={cardIndex == 2}>
-            Flip ▶
+            Flip <FaChevronRight />
           </button>
         </div>
       </div>

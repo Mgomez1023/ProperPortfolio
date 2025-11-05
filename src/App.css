@@ -106,6 +106,10 @@
   position: relative;
   overflow: hidden;
   animation: float 3s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 /* Hover effect (only when not disabled) */

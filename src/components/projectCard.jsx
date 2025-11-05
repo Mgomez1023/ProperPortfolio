@@ -8,6 +8,7 @@ import pythonLogo from "../assets/python-logo.png";
 import EatThisLogo from "../assets/icon-192x192.png";
 import StatsTracker from "../assets/192x192.png";
 import LoanerVehicle from "../assets/loanerVehicle.jpg";
+import { FaWordpressSimple } from 'react-icons/fa';
 
 const ProjectCard = () => {
   return (
@@ -34,48 +35,41 @@ const ProjectCard = () => {
                 <div className="project-skills-inner">
                   <div className="project-skills-track">
                   <span className="project-React">
-                    <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
-                    React
+                  <FaWordpressSimple className="icon"/>
+                    WordPress
                   </span>
                   <span className="project-Javascript">
                     <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    TypeScript
+                    Google Apps Script
                   </span>
                   <span className="project-HTML">
                     <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    HTML
-                  </span>
-                  <span className="project-CSS">
-                    <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    CSS
+                    JQuery
                   </span>
                   <span className="project-Python">
                     <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Python
+                    Elementor
                   </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}
                   <div className="project-skills-track" aria-hidden="true">
                   <span className="project-React">
                     <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
-                    React
+                    WordPress
                   </span>
                   <span className="project-Javascript">
                     <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    TypeScript
+                    Google Sheets
                   </span>
                   <span className="project-HTML">
                     <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    HTML
+                    JQuery
                   </span>
                   <span className="project-CSS">
                     <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    CSS
+                    Elementor
                   </span>
-                  <span className="project-Python">
-                    <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Python
-                  </span>
+
                   </div>
                 </div>
               </div>
@@ -107,19 +101,19 @@ const ProjectCard = () => {
                   </span>
                   <span className="project-Javascript">
                     <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    TypeScript
+                    Vite
                   </span>
                   <span className="project-HTML">
                     <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    HTML
+                    TailWind CSS
                   </span>
                   <span className="project-CSS">
                     <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    CSS
+                    Vercel
                   </span>
                   <span className="project-Python">
                     <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Python
+                    Git
                   </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}
@@ -130,19 +124,19 @@ const ProjectCard = () => {
                   </span>
                   <span className="project-Javascript">
                     <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    TypeScript
+                    Vite
                   </span>
                   <span className="project-HTML">
                     <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    HTML
+                    TailWind CSS
                   </span>
                   <span className="project-CSS">
                     <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    CSS
+                    Vercel
                   </span>
                   <span className="project-Python">
                     <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Python
+                    Git
                   </span>
                   </div>
                 </div>
@@ -176,19 +170,19 @@ const ProjectCard = () => {
                   </span>
                   <span className="project-Javascript">
                     <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    TypeScript
+                    Vite
                   </span>
                   <span className="project-HTML">
                     <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    HTML
+                    Node.JS
                   </span>
                   <span className="project-CSS">
                     <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    CSS
+                    Vercel
                   </span>
                   <span className="project-Python">
                     <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Python
+                    Git
                   </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}

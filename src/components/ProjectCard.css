@@ -49,6 +49,8 @@
 
 .project-listing-header {
   display: flex;
+  font-size: 1.4rem;
+
   gap: 1.5rem;
 }
 
@@ -132,9 +134,14 @@
   color: #ebebeb;
 }
 
+.icon {
+    font-size: 1.2em; /* adjust icon size if needed */
+
+}
+
 .project-card-section h3 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.rem;
   color: #ff6600;
   margin-bottom: 0.2rem;
   margin-top: 0;
