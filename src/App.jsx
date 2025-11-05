@@ -17,7 +17,8 @@ function App() {
   return (
     <div className="app-container">
       {/* This is the flipping card */}
-      <DevCard2 cardIndex={cardIndex} /> 
+      <div className="card-container">
+        <DevCard2 cardIndex={cardIndex} /> 
 
         {/* Navigation buttons */}
         <div className="navigation-buttons">
@@ -28,6 +29,8 @@ function App() {
             Flip ▶
           </button>
         </div>
+      </div>
+
 
     </div>
   )

@@ -6,24 +6,17 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   
-  background:
-    radial-gradient(circle farthest-side at 0% 50%, #0a192f 23.5%, #0000 0) 33.6px 48px,
-    radial-gradient(circle farthest-side at 0% 50%, #ff8c32 24%, #0000 0) 30.4px 48px,
-    linear-gradient(#0a192f 14%, #0000 0, #0000 85%, #0a192f 0) 0 0,
-    linear-gradient(150deg, #0a192f 24%, #ff6600 0, #ff6600 26%, #0000 0, #0000 74%, #ff6600 0, #ff6600 76%, #0a192f 0) 0 0,
-    linear-gradient(30deg, #0a192f 24%, #ff6600 0, #ff6600 26%, #0000 0, #0000 74%, #ff6600 0, #ff6600 76%, #0a192f 0) 0 0,
-    linear-gradient(90deg, #ff6600 2%, #0a192f 0, #0a192f 98%, #ff6600 0%) 0 0 #0a192f;
-  background-size: 64px 96px;
-  background-color: #0a192f;
+	background-image: repeating-linear-gradient(45deg, #ff6600 0, #1A8FE5 2px, transparent 0, transparent 50%);
+	background-size: 60px 60px;
+  background-color: rgb(43, 58, 78);
 
-
+  box-shadow: inset 0px 0px 50px 20px rgba(0, 0, 0, 0.75);
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Make root take full viewport height and setup flexbox container */
-
+  
   display: flex;
   justify-content: center;
   align-items: center;

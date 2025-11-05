@@ -74,38 +74,86 @@
   align-content: center;
   gap: 2rem;
   margin: auto auto;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
+}
+
+/* Floating animation for buttons */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 /* Buttons style */
 .navigation-buttons button {
   background-color: #ff6600;
   color: white;
-  box-shadow: 0px 0px 8px rgb(255, 255, 255);
   border: none;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
   font-weight: 600;
   letter-spacing: 0.5px;
+  box-shadow: 0px 3px 6px rgba(255, 102, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  animation: float 3s ease-in-out infinite;
 }
 
-/* Hover effect */
+/* Hover effect (only when not disabled) */
 .navigation-buttons button:hover:not(:disabled) {
   background-color: #ff8533;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(255, 102, 0, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(211, 146, 102, 0.5);
+}
+
+/* Add a soft glowing ring on hover */
+.navigation-buttons button:hover:not(:disabled)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid rgba(211, 118, 51, 0.6);
 }
 
 /* Disabled button look */
 .navigation-buttons button:disabled {
-  background-color: #555;
-  color: #aaa;
+  background-color: #444;
+  color: #999;
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
+  opacity: 0.6;
+  animation: none;
+}
+
+/* Prevent hover animation on disabled */
+.navigation-buttons button:disabled::after {
+  display: none;
+}
+
+/* Keyframes for glowing pulse effect */
+@keyframes pulseGlow {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  70% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
 }
  
 /* ProjectCard styles appended to ensure inclusion in production build */
