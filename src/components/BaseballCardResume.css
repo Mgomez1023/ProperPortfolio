@@ -29,6 +29,13 @@
   .baseball-card {
     height: 75% !important;
     width: 75%;
+    overflow: hidden; /* Ensure the card doesn't overflow */
+  }
+  
+  .card-content {
+    height: 100%; /* Take full height of parent */
+    overflow-y: auto; /* Enable scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
 }
 
