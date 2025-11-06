@@ -5,6 +5,8 @@ import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
 import profilePic from "../assets/image2.jpeg";
+import CLogo from "../assets/C.png";
+
 import "./BaseballCardResume.css";
 
 const BaseballCardResume = () => {
@@ -76,6 +78,11 @@ const BaseballCardResume = () => {
               <span className="HTML">
                 <img src={htmlLogo} alt="HTML Logo" className="skill-logo" />
                 HTML
+              </span>
+
+              <span className="C">
+                <img src={CLogo} alt="HTML Logo" className="skill-logo" />
+                C/C++
               </span>
 
             </div>

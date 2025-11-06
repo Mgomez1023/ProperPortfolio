@@ -190,6 +190,11 @@
   background-color: #5263f7;
 }
 
+.C {
+  background-color:hsl(209, 77%, 62%);
+
+}
+
 .skills-grid .skill-logo {
   width: 16px;
   height: 16px;

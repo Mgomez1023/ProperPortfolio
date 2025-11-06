@@ -146,11 +146,18 @@ const ProjectCard = () => {
 
             <div className="project-listing-content">
 
-              <p className="project-paragraph"> An app designed to make a food choice. 
-              EatThis uses React and API calls to make a user-friendly local 
-              restaurant picker.
-              </p>
-              <img className="listing-photo" src={EatThisLogo} alt="EatThis Logo" />
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <p className="project-paragraph"> An app designed to make a food choice. 
+                  EatThis uses React and API calls to make a user-friendly local 
+                  restaurant picker.
+                  </p>
+                  <img className="listing-photo" src={EatThisLogo} alt="EatThis Logo" />
+                </div>
+                <a href="https://eat-this-app-mgomez1023s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="view-project-btn">Demo</button>
+                </a>
+              </div>
 
             </div>
 
@@ -215,10 +222,17 @@ const ProjectCard = () => {
 
             <div className="project-listing-content">
 
-              <p className="project-paragraph">A progressive web app designed to help 
-              local teams and players track their personal stats throughout a season
-              </p>
-              <img className="listing-photo" src={StatsTracker} alt="StatTracker Logo" />
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <p className="project-paragraph">A progressive web app designed to help 
+                  local teams and players track their personal stats throughout a season
+                  </p>
+                  <img className="listing-photo" src={StatsTracker} alt="StatTracker Logo" />
+                </div>
+                <a href="https://baseball-stat-tracker-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="view-project-btn">Demo</button>
+                </a>
+              </div>
 
             </div>
 
