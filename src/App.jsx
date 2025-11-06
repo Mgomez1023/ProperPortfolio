@@ -6,6 +6,7 @@ import DevCard from './components/DevCard.jsx'
 import DevCard2 from './components/DevCard2.jsx'
 import { FaChevronLeft } from 'react-icons/fa';
 import { FaChevronRight } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './App.css'
 // Ensure ProjectCard styles are included in production builds (avoid potential case/tree-shake issues)
 import './components/ProjectCard.css'
@@ -18,6 +19,17 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* Fixed social icons (replace URLs with your profiles) */}
+      <div className="top-right-icons" aria-hidden={false}>
+        <a href="https://github.com/Mgomez1023" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/martin-gomez-
+
+" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <FaLinkedin />
+        </a>
+      </div>
       {/* This is the flipping card */}
       <div className="card-container">
         <DevCard2 cardIndex={cardIndex} /> 

@@ -113,6 +113,14 @@
   font-family: "Segoe UI", sans-serif;
 }
 
+/* Mobile: make main card take 70% height on small viewports */
+@media (max-width: 600px) {
+  .dev-card {
+    height: 75% !important;
+    width: 75%;
+  }
+}
+
 
 
 .dev-card::before,

@@ -24,6 +24,14 @@
   transition: transform 0.3s ease;
 }
 
+/* Mobile: make main card take 70% height on small viewports */
+@media (max-width: 600px) {
+  .project-card {
+    height: 75% !important;
+    width: 75%;
+  }
+}
+
 .project-title {
   width: 100%;
   font-size: 1.0rem;
