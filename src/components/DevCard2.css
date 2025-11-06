@@ -195,6 +195,7 @@
   padding: 3px 3px 3px 3px;
   border-radius: 15px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 /* Name Section */
