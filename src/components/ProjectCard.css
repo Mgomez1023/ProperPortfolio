@@ -27,7 +27,7 @@
 /* Mobile: make main card take 70% height on small viewports */
 @media (max-width: 600px) {
   .project-card {
-    height: 75% !important;
+    height: 75%;
     width: 75%;
   }
 }
