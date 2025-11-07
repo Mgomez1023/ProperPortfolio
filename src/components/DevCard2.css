@@ -40,13 +40,11 @@
 .card-back {
   transform: rotateY(180deg);
   z-index: 2;
-  backface-visibility: hidden;
-  -webkit-overflow-scrolling: touch;
   pointer-events: auto; /* make sure touches are passed through */
 }
 
 /* Mobile: make main card take 70% height on small viewports */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .card-back {
     overflow-y: auto;
   }
