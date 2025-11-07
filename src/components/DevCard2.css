@@ -40,15 +40,8 @@
 .card-back {
   transform: rotateY(180deg);
   z-index: 2;
-  pointer-events: auto; /* make sure touches are passed through */
 }
 
-/* Mobile: make main card take 70% height on small viewports */
-@media (max-width: 700px) {
-  .card-back {
-    overflow-y: auto;
-  }
-}
 
 /* THIRD FACE (Projects) */
 .card-third {

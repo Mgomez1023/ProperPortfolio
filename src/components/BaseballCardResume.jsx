@@ -11,8 +11,8 @@ import "./BaseballCardResume.css";
 
 const BaseballCardResume = () => {
   return (
-    <div className="project-card-container">
-      <div className="project-card">
+    <div className="baseball-card-container">
+      <div className="baseball-card">
           <header className="card-header">
             <img
               src={profilePic}

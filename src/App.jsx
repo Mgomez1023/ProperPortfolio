@@ -8,6 +8,9 @@ import { FaChevronLeft } from 'react-icons/fa';
 import { FaChevronRight } from 'react-icons/fa';
 import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
 import { MdOutlineFileDownload } from "react-icons/md";import './App.css'
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 // Ensure ProjectCard styles are included in production builds (avoid potential case/tree-shake issues)
 import './components/ProjectCard.css'
 
@@ -48,6 +51,8 @@ function App() {
         </div>
       </div>
 
+      <Analytics />
+      <SpeedInsights />
 
     </div>
   )
