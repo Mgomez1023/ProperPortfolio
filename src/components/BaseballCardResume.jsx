@@ -11,6 +11,7 @@ import "./BaseballCardResume.css";
 
 const BaseballCardResume = () => {
   return (
+    <div className="card-container">
       <div className="baseball-card">
         <div className="card-content">
           <header className="card-header">
@@ -89,6 +90,7 @@ const BaseballCardResume = () => {
           </section>
         </div>
       </div>
+    </div>
   );
 };
 

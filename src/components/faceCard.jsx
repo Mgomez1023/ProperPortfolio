@@ -4,7 +4,7 @@ import typescriptLogo from "../assets/typescript.png";
 import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
-import moraineLogo from "../assets/Moraine.png";
+import moraineLogo from "../assets/MoraineEdit.png";
 import uicLogo from "../assets/download.png";
 import profilePic from "../assets/image2.jpeg";
 
