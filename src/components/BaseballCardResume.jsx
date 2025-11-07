@@ -25,14 +25,7 @@ const BaseballCardResume = () => {
             </div>
           </header>
 
-          <section className="bio">
-            <p>
-              Passionate about software development, AI, and Baseball.
-              I enjoy building projects that combine creativity and usability.
-            </p>
-          </section>
-
-          <section className="card-section">
+          <section className="education">
             <h3>Education</h3>
             <ul>
               <li>B.S Computer Science – University of Illinois Chicago</li>
@@ -87,6 +80,19 @@ const BaseballCardResume = () => {
 
             </div>
           </section>
+
+          {/* 
+          
+          <section className="bio">
+            <p>
+              Passionate about software development, AI, and Baseball.
+              I enjoy building projects that combine creativity and usability.
+            </p>
+          </section>
+          
+          */}
+
+
       </div>
     </div>
   );
