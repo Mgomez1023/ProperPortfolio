@@ -107,7 +107,7 @@
 /* Mobile: make main card take 70% height on small viewports */
 @media (max-width: 600px) {
   .dev-card {
-    height: 75% !important;
+    height: 80% !important;
     width: 75%;
     margin-bottom: 0;
   }
