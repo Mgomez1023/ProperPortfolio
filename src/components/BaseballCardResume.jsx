@@ -33,20 +33,24 @@ const BaseballCardResume = () => {
             </ul>
           </section>
 
-          <section className="card-section">
-            <h3>Projects</h3>
-            <ul>
-              <li>Vehicle Management System</li>
-              <li>EatThis - Food Picker</li>
-              <li>Baseball Stats Tracker</li>
-            </ul>
-          </section>
+          {/* 
+          
+            <section className="card-section">
+              <h3>Projects</h3>
+              <ul>
+                <li>Vehicle Management System</li>
+                <li>EatThis - Food Picker</li>
+                <li>Baseball Stats Tracker</li>
+              </ul>
+            </section>
+          
+          */}
 
           <section className="card-section">
             <h3>Work Experience</h3>
             <ul>
-              <li>UPS - Package Handler</li>
               <li>Chicago Tire and Auto - Software Developer</li>
+              <li>UPS - Package Handler</li>
               <li>Walmart - Cashier</li>
             </ul>
           </section>
@@ -61,22 +65,22 @@ const BaseballCardResume = () => {
               <span className="Python">
                 <img src={pythonLogo} alt="Python Logo" className="skill-logo" />
                 Python</span>
-              <span className="CSS">
-                <img src={cssLogo} alt="CSS Logo" className="skill-logo" />
-                CSS</span>
+              <span className="C">
+                <img src={CLogo} alt="HTML Logo" className="skill-logo" />
+                C/C++
+              </span>
               <span className="Javascript">
                 <img src={ typescriptLogo } alt="TypeScript Logo" className="skill-logo" />
                 TypeScript
               </span>
+              <span className="CSS">
+                <img src={cssLogo} alt="CSS Logo" className="skill-logo" />
+                CSS</span>
               <span className="HTML">
                 <img src={htmlLogo} alt="HTML Logo" className="skill-logo" />
                 HTML
               </span>
 
-              <span className="C">
-                <img src={CLogo} alt="HTML Logo" className="skill-logo" />
-                C/C++
-              </span>
 
             </div>
           </section>

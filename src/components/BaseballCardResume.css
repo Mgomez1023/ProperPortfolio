@@ -89,6 +89,7 @@
 }
 
 .education {
+  margin: 15px 0;
   text-align: left;
   border-top: none;
 }
@@ -127,19 +128,19 @@
   font-size: 1.2rem;
   color: #ff6600;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 0.3rem;
+  margin-bottom: 1rem;
   margin-top: 10px;
 }
 
 .education ul {
   padding-left: 20px;
-  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 .education li {
   font-size: 0.9rem;
   color: #ffffff;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-section h3 {
@@ -147,7 +148,7 @@
   font-size: 1.2rem;
   color: #ff6600;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 0.3rem;
+  margin-bottom: 1rem;
   margin-top: 10px;
 }
 
@@ -159,7 +160,7 @@
 .card-section li {
   font-size: 0.9rem;
   color: #ffffff;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .skills-section {
@@ -183,7 +184,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   justify-content: center;
 }
