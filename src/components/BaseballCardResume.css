@@ -20,15 +20,16 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  /* let the card itself scroll like .project-card */
   overflow-y: auto;
 }
 
 
 .card-content {
-  /* make the inner area grow and scroll when content overflows */
-  flex: 1;
+  /* make the inner area grow; allow it to shrink and not block scrolling */
+  flex: 1 1 auto;
+  min-height: 0; /* allow flex child to shrink and enable inner scrolling */
   width: 100%;
-  height: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
