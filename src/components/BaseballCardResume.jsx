@@ -6,6 +6,8 @@ import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
 import profilePic from "../assets/ProSelfieEdit.jpeg";
 import CLogo from "../assets/C.png";
+import { FaWordpress } from "react-icons/fa";
+
 
 import "./BaseballCardResume.css";
 
@@ -79,6 +81,10 @@ const BaseballCardResume = () => {
               <span className="HTML">
                 <img src={htmlLogo} alt="HTML Logo" className="skill-logo" />
                 HTML
+              </span>
+              <span className="React">
+                <FaWordpress className="skill-logo" />
+                WordPress
               </span>
 
 
