@@ -25,7 +25,7 @@
 /* Mobile: make main card take 70% height on small viewports */
 @media (max-width: 600px) {
   .baseball-card {
-    height: 75%;
+    height: 70%;
     width: 75%;
   }
 }

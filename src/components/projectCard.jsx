@@ -1,14 +1,24 @@
 import React from "react";
 import reactLogo from "../assets/react.svg";
 import typescriptLogo from "../assets/typescript.png";
-import profilePic from "../assets/image2.jpeg";
+import profilePic from "../assets/ProSelfieEdit.jpeg";
 import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
 import EatThisLogo from "../assets/icon-192x192.png";
 import StatsTracker from "../assets/192x192.png";
 import LoanerVehicle from "../assets/loanerVehicle.jpg";
-import { FaWordpressSimple } from 'react-icons/fa';
+import { FaWordpress } from "react-icons/fa";
+import { SiGoogleappsscript } from "react-icons/si";
+import { DiJqueryLogo } from "react-icons/di";
+import { FaElementor } from "react-icons/fa6";
+import { FaReact } from "react-icons/fa";
+import { SiVite } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoVercel } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
+
+
 
 const ProjectCard = () => {
   return (
@@ -35,38 +45,38 @@ const ProjectCard = () => {
                 <div className="project-skills-inner">
                   <div className="project-skills-track">
                   <span className="project-React">
-                  <FaWordpressSimple className="icon"/>
+                  <FaWordpress className="project-skill-logo"/>
                     WordPress
                   </span>
                   <span className="project-Javascript">
-                    <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
+                    <SiGoogleappsscript className="project-skill-logo"/>
                     Google Apps Script
                   </span>
                   <span className="project-HTML">
-                    <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
+                    <DiJqueryLogo className="project-skill-logo"/>
                     JQuery
                   </span>
                   <span className="project-Python">
-                    <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
+                    <FaElementor className="project-skill-logo" />
                     Elementor
                   </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}
                   <div className="project-skills-track" aria-hidden="true">
                   <span className="project-React">
-                    <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
+                    <FaWordpress className="project-skill-logo"/> 
                     WordPress
                   </span>
                   <span className="project-Javascript">
-                    <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    Google Sheets
+                    <SiGoogleappsscript className="project-skill-logo"/>
+                    Google Apps Script
                   </span>
                   <span className="project-HTML">
-                    <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
+                    <DiJqueryLogo className="project-skill-logo"/>
                     JQuery
                   </span>
                   <span className="project-CSS">
-                    <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
+                    <FaElementor className="project-skill-logo" />
                     Elementor
                   </span>
 
@@ -96,46 +106,46 @@ const ProjectCard = () => {
                 <div className="project-skills-inner">
                   <div className="project-skills-track">
                   <span className="project-React">
-                    <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
+                    <FaReact className="project-skill-logo" />
                     React
                   </span>
                   <span className="project-Javascript">
-                    <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
+                    <SiVite className="project-skill-logo"/>
                     Vite
                   </span>
                   <span className="project-HTML">
-                    <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
+                    <RiTailwindCssFill className="project-skill-logo"/>
                     TailWind CSS
                   </span>
                   <span className="project-CSS">
-                    <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
+                    <IoLogoVercel className="project-skill-logo"/>
                     Vercel
                   </span>
                   <span className="project-Python">
-                    <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
+                    <FaGithub className="project-skill-logo"/>
                     Git
                   </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}
                   <div className="project-skills-track" aria-hidden="true">
                   <span className="project-React">
-                    <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
+                    <FaReact className="project-skill-logo" />
                     React
                   </span>
                   <span className="project-Javascript">
-                    <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
+                    <SiVite className="project-skill-logo"/>
                     Vite
                   </span>
                   <span className="project-HTML">
-                    <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
+                    <RiTailwindCssFill className="project-skill-logo"/>
                     TailWind CSS
                   </span>
                   <span className="project-CSS">
-                    <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
+                    <IoLogoVercel className="project-skill-logo"/>
                     Vercel
                   </span>
                   <span className="project-Python">
-                    <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
+                    <FaGithub className="project-skill-logo"/>
                     Git
                   </span>
                   </div>
@@ -171,49 +181,41 @@ const ProjectCard = () => {
               <div className="project-skills-grid">
                 <div className="project-skills-inner">
                   <div className="project-skills-track">
-                  <span className="project-React">
-                    <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
-                    React
-                  </span>
-                  <span className="project-Javascript">
-                    <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    Vite
-                  </span>
-                  <span className="project-HTML">
-                    <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    Node.JS
-                  </span>
-                  <span className="project-CSS">
-                    <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    Vercel
-                  </span>
-                  <span className="project-Python">
-                    <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Git
-                  </span>
+                    <span className="project-Python">
+                      <FaGithub className="project-skill-logo"/>
+                      Git
+                    </span>
+                    <span className="project-Javascript">
+                      <SiVite className="project-skill-logo"/>
+                      Vite
+                    </span>
+                    <span className="project-React">
+                      <FaReact className="project-skill-logo" />
+                      React
+                    </span>
+                    <span className="project-CSS">
+                      <IoLogoVercel className="project-skill-logo"/>
+                      Vercel
+                    </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}
                   <div className="project-skills-track" aria-hidden="true">
-                  <span className="project-React">
-                    <img src={reactLogo} alt="React Logo" className="project-skill-logo" />
-                    React
-                  </span>
-                  <span className="project-Javascript">
-                    <img src={typescriptLogo} alt="TypeScript Logo" className="project-skill-logo" />
-                    TypeScript
-                  </span>
-                  <span className="project-HTML">
-                    <img src={htmlLogo} alt="HTML Logo" className="project-skill-logo" />
-                    HTML
-                  </span>
-                  <span className="project-CSS">
-                    <img src={cssLogo} alt="CSS Logo" className="project-skill-logo" />
-                    CSS
-                  </span>
-                  <span className="project-Python">
-                    <img src={pythonLogo} alt="Python Logo" className="project-skill-logo" />
-                    Python
-                  </span>
+                    <span className="project-Javascript">
+                      <SiVite className="project-skill-logo"/>
+                      Vite
+                    </span>
+                    <span className="project-Python">
+                      <FaGithub className="project-skill-logo"/>
+                      Git
+                    </span>
+                    <span className="project-React">
+                      <FaReact className="project-skill-logo" />
+                      React
+                    </span>
+                    <span className="project-CSS">
+                      <IoLogoVercel className="project-skill-logo"/>
+                      Vercel
+                    </span>
                   </div>
                 </div>
               </div>
