@@ -118,25 +118,25 @@ const ProjectCard = () => {
               <div className="project-skills-grid">
                 <div className="project-skills-inner">
                   <div className="project-skills-track">
-                  <span className="project-React">
-                    <FaReact className="project-skill-logo" />
-                    React
+                  <span className="project-HTML">
+                    <RiTailwindCssFill className="project-skill-logo"/>
+                    TailWind CSS
                   </span>
                   <span className="project-Javascript">
                     <SiVite className="project-skill-logo"/>
                     Vite
                   </span>
-                  <span className="project-HTML">
-                    <RiTailwindCssFill className="project-skill-logo"/>
-                    TailWind CSS
-                  </span>
-                  <span className="project-CSS">
-                    <IoLogoVercel className="project-skill-logo"/>
-                    Vercel
+                  <span className="project-React">
+                    <FaReact className="project-skill-logo" />
+                    React
                   </span>
                   <span className="project-Python">
                     <FaGithub className="project-skill-logo"/>
                     Git
+                  </span>
+                  <span className="project-CSS">
+                    <IoLogoVercel className="project-skill-logo"/>
+                    Vercel
                   </span>
                   </div>
                   {/* Duplicate the track for a seamless looping scroll */}
@@ -145,21 +145,21 @@ const ProjectCard = () => {
                     <FaReact className="project-skill-logo" />
                     React
                   </span>
-                  <span className="project-Javascript">
-                    <SiVite className="project-skill-logo"/>
-                    Vite
-                  </span>
                   <span className="project-HTML">
                     <RiTailwindCssFill className="project-skill-logo"/>
                     TailWind CSS
                   </span>
-                  <span className="project-CSS">
-                    <IoLogoVercel className="project-skill-logo"/>
-                    Vercel
+                  <span className="project-Javascript">
+                    <SiVite className="project-skill-logo"/>
+                    Vite
                   </span>
                   <span className="project-Python">
                     <FaGithub className="project-skill-logo"/>
                     Git
+                  </span>
+                  <span className="project-CSS">
+                    <IoLogoVercel className="project-skill-logo"/>
+                    Vercel
                   </span>
                   </div>
                 </div>
@@ -171,8 +171,9 @@ const ProjectCard = () => {
 
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                  <p className="project-paragraph"> A custom-built pitchers
-                    analysis tool designed to help visualize pitch tendencies, and 
+                  <p className="project-paragraph"> A pitchers analysis tool built for a second round Washington 
+                    Nationals interview. 
+                    It's designed to help visualize pitch tendencies, and 
                     provide performance insights for MLB players.
                     
                   </p>
