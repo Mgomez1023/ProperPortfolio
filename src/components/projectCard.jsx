@@ -36,80 +36,6 @@ const ProjectCard = () => {
         <section className="project-card-section">
           <h3>Projects</h3>
 
-          <div className="project-listing">
-            <div className="project-listing-header">
-              <h2 className="project-title">EatThis - Food Picker</h2>
-
-              <div className="project-skills-grid">
-                <div className="project-skills-inner">
-                  <div className="project-skills-track">
-                  <span className="project-React">
-                    <FaReact className="project-skill-logo" />
-                    React
-                  </span>
-                  <span className="project-Javascript">
-                    <SiVite className="project-skill-logo"/>
-                    Vite
-                  </span>
-                  <span className="project-HTML">
-                    <RiTailwindCssFill className="project-skill-logo"/>
-                    TailWind CSS
-                  </span>
-                  <span className="project-CSS">
-                    <IoLogoVercel className="project-skill-logo"/>
-                    Vercel
-                  </span>
-                  <span className="project-Python">
-                    <FaGithub className="project-skill-logo"/>
-                    Git
-                  </span>
-                  </div>
-                  {/* Duplicate the track for a seamless looping scroll */}
-                  <div className="project-skills-track" aria-hidden="true">
-                  <span className="project-React">
-                    <FaReact className="project-skill-logo" />
-                    React
-                  </span>
-                  <span className="project-Javascript">
-                    <SiVite className="project-skill-logo"/>
-                    Vite
-                  </span>
-                  <span className="project-HTML">
-                    <RiTailwindCssFill className="project-skill-logo"/>
-                    TailWind CSS
-                  </span>
-                  <span className="project-CSS">
-                    <IoLogoVercel className="project-skill-logo"/>
-                    Vercel
-                  </span>
-                  <span className="project-Python">
-                    <FaGithub className="project-skill-logo"/>
-                    Git
-                  </span>
-                  </div>
-                </div>
-              </div>
- 
-            </div>
-
-            <div className="project-listing-content">
-
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                  <p className="project-paragraph"> An app designed to make a food choice. 
-                  EatThis uses React and API calls to make a user-friendly local 
-                  restaurant picker.
-                  </p>
-                  <img className="listing-photo" src={EatThisLogo} alt="EatThis Logo" />
-                </div>
-                <a href="https://eat-this-app-mgomez1023s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <button className="view-project-btn">Demo</button>
-                </a>
-              </div>
-
-            </div>
-          </div>  
-
 
           <div className="project-listing">
             <div className="project-listing-header">
@@ -188,18 +114,83 @@ const ProjectCard = () => {
           </div>  
 
 
+          <div className="project-listing">
+            <div className="project-listing-header">
+              <h2 className="project-title">EatThis - Food Picker</h2>
+
+              <div className="project-skills-grid">
+                <div className="project-skills-inner">
+                  <div className="project-skills-track">
+                  <span className="project-React">
+                    <FaReact className="project-skill-logo" />
+                    React
+                  </span>
+                  <span className="project-Javascript">
+                    <SiVite className="project-skill-logo"/>
+                    Vite
+                  </span>
+                  <span className="project-HTML">
+                    <RiTailwindCssFill className="project-skill-logo"/>
+                    TailWind CSS
+                  </span>
+                  <span className="project-CSS">
+                    <IoLogoVercel className="project-skill-logo"/>
+                    Vercel
+                  </span>
+                  <span className="project-Python">
+                    <FaGithub className="project-skill-logo"/>
+                    Git
+                  </span>
+                  </div>
+                  {/* Duplicate the track for a seamless looping scroll */}
+                  <div className="project-skills-track" aria-hidden="true">
+                  <span className="project-React">
+                    <FaReact className="project-skill-logo" />
+                    React
+                  </span>
+                  <span className="project-Javascript">
+                    <SiVite className="project-skill-logo"/>
+                    Vite
+                  </span>
+                  <span className="project-HTML">
+                    <RiTailwindCssFill className="project-skill-logo"/>
+                    TailWind CSS
+                  </span>
+                  <span className="project-CSS">
+                    <IoLogoVercel className="project-skill-logo"/>
+                    Vercel
+                  </span>
+                  <span className="project-Python">
+                    <FaGithub className="project-skill-logo"/>
+                    Git
+                  </span>
+                  </div>
+                </div>
+              </div>
+ 
+            </div>
+
+            <div className="project-listing-content">
+
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <p className="project-paragraph"> An app designed to make a food choice. 
+                  EatThis uses React and API calls to make a user-friendly local 
+                  restaurant picker.
+                  </p>
+                  <img className="listing-photo" src={EatThisLogo} alt="EatThis Logo" />
+                </div>
+                <a href="https://eat-this-app-mgomez1023s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="view-project-btn">Demo</button>
+                </a>
+              </div>
+
+            </div>
+          </div>
 
 
 
-
-
-
-
-
-
-
-
-         <div className="project-listing">
+          <div className="project-listing">
             <div className="project-listing-header">
               <h2 className="project-title">Baseball Stats Tracker</h2>
 
@@ -260,12 +251,15 @@ const ProjectCard = () => {
                   <button className="view-project-btn">Demo</button>
                 </a>
               </div>
-
             </div>
-
-
-
           </div>  
+
+
+
+
+
+
+
           <div className="project-listing">
             <div className="project-listing-header">
               <h2 className="project-title">Loaner Vehicle Management System</h2>
