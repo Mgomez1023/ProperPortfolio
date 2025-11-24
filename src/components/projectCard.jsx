@@ -8,7 +8,7 @@ import pythonLogo from "../assets/python-logo.png";
 import EatThisLogo from "../assets/icon-192x192.png";
 import StatsTracker from "../assets/192x192.png";
 import LoanerVehicle from "../assets/loanerVehicle.jpg";
-import PitchSearch from "../assets/pitchSearch.png";
+import PitchSearch from "../assets/PitchSearch.png";
 import { FaWordpress } from "react-icons/fa";
 import { SiGoogleappsscript } from "react-icons/si";
 import { DiJqueryLogo } from "react-icons/di";
