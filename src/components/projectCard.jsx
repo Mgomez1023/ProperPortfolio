@@ -8,6 +8,7 @@ import pythonLogo from "../assets/python-logo.png";
 import EatThisLogo from "../assets/icon-192x192.png";
 import StatsTracker from "../assets/192x192.png";
 import LoanerVehicle from "../assets/loanerVehicle.jpg";
+import PitchSearch from "../assets/pitchSearch.png";
 import { FaWordpress } from "react-icons/fa";
 import { SiGoogleappsscript } from "react-icons/si";
 import { DiJqueryLogo } from "react-icons/di";
@@ -34,69 +35,6 @@ const ProjectCard = () => {
 
         <section className="project-card-section">
           <h3>Projects</h3>
-
-
-          
-          <div className="project-listing">
-            <div className="project-listing-header">
-              <h2 className="project-title">Loaner Vehicle Management System</h2>
-
-              <div className="project-skills-grid">
-                <div className="project-skills-inner">
-                  <div className="project-skills-track">
-                  <span className="project-React">
-                  <FaWordpress className="project-skill-logo"/>
-                    WordPress
-                  </span>
-                  <span className="project-Javascript">
-                    <SiGoogleappsscript className="project-skill-logo"/>
-                    Google Apps Script
-                  </span>
-                  <span className="project-HTML">
-                    <DiJqueryLogo className="project-skill-logo"/>
-                    JQuery
-                  </span>
-                  <span className="project-Python">
-                    <FaElementor className="project-skill-logo" />
-                    Elementor
-                  </span>
-                  </div>
-                  {/* Duplicate the track for a seamless looping scroll */}
-                  <div className="project-skills-track" aria-hidden="true">
-                  <span className="project-React">
-                    <FaWordpress className="project-skill-logo"/> 
-                    WordPress
-                  </span>
-                  <span className="project-Javascript">
-                    <SiGoogleappsscript className="project-skill-logo"/>
-                    Google Apps Script
-                  </span>
-                  <span className="project-HTML">
-                    <DiJqueryLogo className="project-skill-logo"/>
-                    JQuery
-                  </span>
-                  <span className="project-CSS">
-                    <FaElementor className="project-skill-logo" />
-                    Elementor
-                  </span>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="project-listing-content">
-
-              <p className="project-paragraph"> A vehicle management system that 
-                allowed customers to check in and out vehicles, and allowed a 
-                local business to log custumer data.  
-              </p>
-              <img className="loaner-listing-photo" src={LoanerVehicle} alt="EatThis Logo" />
-
-            </div>
-
-          </div>
 
           <div className="project-listing">
             <div className="project-listing-header">
@@ -170,9 +108,95 @@ const ProjectCard = () => {
               </div>
 
             </div>
-
-
           </div>  
+
+
+          <div className="project-listing">
+            <div className="project-listing-header">
+              <h2 className="project-title">PitchSearch</h2>
+
+              <div className="project-skills-grid">
+                <div className="project-skills-inner">
+                  <div className="project-skills-track">
+                  <span className="project-React">
+                    <FaReact className="project-skill-logo" />
+                    React
+                  </span>
+                  <span className="project-Javascript">
+                    <SiVite className="project-skill-logo"/>
+                    Vite
+                  </span>
+                  <span className="project-HTML">
+                    <RiTailwindCssFill className="project-skill-logo"/>
+                    TailWind CSS
+                  </span>
+                  <span className="project-CSS">
+                    <IoLogoVercel className="project-skill-logo"/>
+                    Vercel
+                  </span>
+                  <span className="project-Python">
+                    <FaGithub className="project-skill-logo"/>
+                    Git
+                  </span>
+                  </div>
+                  {/* Duplicate the track for a seamless looping scroll */}
+                  <div className="project-skills-track" aria-hidden="true">
+                  <span className="project-React">
+                    <FaReact className="project-skill-logo" />
+                    React
+                  </span>
+                  <span className="project-Javascript">
+                    <SiVite className="project-skill-logo"/>
+                    Vite
+                  </span>
+                  <span className="project-HTML">
+                    <RiTailwindCssFill className="project-skill-logo"/>
+                    TailWind CSS
+                  </span>
+                  <span className="project-CSS">
+                    <IoLogoVercel className="project-skill-logo"/>
+                    Vercel
+                  </span>
+                  <span className="project-Python">
+                    <FaGithub className="project-skill-logo"/>
+                    Git
+                  </span>
+                  </div>
+                </div>
+              </div>
+ 
+            </div>
+
+            <div className="project-listing-content">
+
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <p className="project-paragraph"> A custom-built pitchers
+                    analysis tool designed to help visualize pitch tendencies, and 
+                    provide performance insights for MLB players.
+                    
+                  </p>
+                  <img className="listing-photo" src={PitchSearch} alt="PitchSearch Logo" />
+                </div>
+                <a href="https://pitch-search.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="view-project-btn">Demo</button>
+                </a>
+              </div>
+
+            </div>
+          </div>  
+
+
+
+
+
+
+
+
+
+
+
+
 
          <div className="project-listing">
             <div className="project-listing-header">
@@ -238,7 +262,73 @@ const ProjectCard = () => {
 
             </div>
 
+
+
           </div>  
+          <div className="project-listing">
+            <div className="project-listing-header">
+              <h2 className="project-title">Loaner Vehicle Management System</h2>
+
+              <div className="project-skills-grid">
+                <div className="project-skills-inner">
+                  <div className="project-skills-track">
+                  <span className="project-React">
+                  <FaWordpress className="project-skill-logo"/>
+                    WordPress
+                  </span>
+                  <span className="project-Javascript">
+                    <SiGoogleappsscript className="project-skill-logo"/>
+                    Google Apps Script
+                  </span>
+                  <span className="project-HTML">
+                    <DiJqueryLogo className="project-skill-logo"/>
+                    JQuery
+                  </span>
+                  <span className="project-Python">
+                    <FaElementor className="project-skill-logo" />
+                    Elementor
+                  </span>
+                  </div>
+                  {/* Duplicate the track for a seamless looping scroll */}
+                  <div className="project-skills-track" aria-hidden="true">
+                  <span className="project-React">
+                    <FaWordpress className="project-skill-logo"/> 
+                    WordPress
+                  </span>
+                  <span className="project-Javascript">
+                    <SiGoogleappsscript className="project-skill-logo"/>
+                    Google Apps Script
+                  </span>
+                  <span className="project-HTML">
+                    <DiJqueryLogo className="project-skill-logo"/>
+                    JQuery
+                  </span>
+                  <span className="project-CSS">
+                    <FaElementor className="project-skill-logo" />
+                    Elementor
+                  </span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="project-listing-content">
+
+              <p className="project-paragraph"> A vehicle management system that 
+                allowed customers to check in and out vehicles, and allowed a 
+                local business to log custumer data.  
+              </p>
+              <img className="loaner-listing-photo" src={LoanerVehicle} alt="EatThis Logo" />
+
+            </div>
+
+          </div>
+
+
+
+
         </section>
       </div>
     </div>
