@@ -4,7 +4,7 @@ import typescriptLogo from "../assets/typescript.png";
 import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import pythonLogo from "../assets/python-logo.png";
-import profilePic from "../assets/ProSelfieEdit.jpeg";
+import profilePic from "../assets/image2.jpeg";
 import CLogo from "../assets/C.png";
 import { FaWordpress } from "react-icons/fa";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./DevCard2.css";
-import profilePic from "../assets/image2.jpeg";
-import moraineLogo from "../assets/OIP.jpg";
+import profilePic from "../assets/Action2.jpeg";
+import moraineLogo from "../assets/MoraineEdit.png";
 import uicLogo from "../assets/download.png";
 
 const DevCard = () => {
