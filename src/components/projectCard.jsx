@@ -1,14 +1,15 @@
 import React from "react";
 import reactLogo from "../assets/react.svg";
-import typescriptLogo from "../assets/typescript.png";
+import { AiOutlinePython } from "react-icons/ai";
 import profilePic from "../assets/image2.jpeg";
-import htmlLogo from "../assets/html.png";
-import cssLogo from "../assets/css.png";
-import pythonLogo from "../assets/python-logo.png";
+import { SiFastapi } from "react-icons/si";
+import { SiDuckdb } from "react-icons/si";
+import { RiOpenaiFill } from "react-icons/ri";
 import EatThisLogo from "../assets/icon-192x192.png";
 import StatsTracker from "../assets/192x192.png";
 import LoanerVehicle from "../assets/loanerVehicle.jpg";
 import PitchSearch from "../assets/PitchSearch.png";
+import nl2sql from "../assets/nl2sql.png";
 import { FaWordpress } from "react-icons/fa";
 import { SiGoogleappsscript } from "react-icons/si";
 import { DiJqueryLogo } from "react-icons/di";
@@ -35,6 +36,86 @@ const ProjectCard = () => {
 
         <section className="project-card-section">
           <h3>Projects</h3>
+
+
+
+          <div className="project-listing">
+            <div className="project-listing-header">
+              <h2 className="project-title">NL→SQL Explorer</h2>
+
+              <div className="project-skills-grid">
+                <div className="project-skills-inner">
+                  <div className="project-skills-track">
+                  <span className="project-HTML">
+                    <RiOpenaiFill className="project-skill-logo"/>
+                    OpenAI API
+                  </span>
+                  <span className="project-Javascript">
+                    <FaReact className="project-skill-logo"/>
+                    React/Vite
+                  </span>
+                  <span className="project-React">
+                    <SiFastapi className="project-skill-logo" />
+                    FastAPI
+                  </span>
+                  <span className="project-Python">
+                    <AiOutlinePython className="project-skill-logo"/>
+                    Python
+                  </span>
+                  <span className="project-CSS">
+                    <SiDuckdb className="project-skill-logo"/>
+                    DuckDB
+                  </span>
+                  </div>
+                  {/* Duplicate the track for a seamless looping scroll */}
+                  <div className="project-skills-track">
+                  <span className="project-HTML">
+                    <RiOpenaiFill className="project-skill-logo"/>
+                    OpenAI API
+                  </span>
+                  <span className="project-Javascript">
+                    <FaReact className="project-skill-logo"/>
+                    React/Vite
+                  </span>
+                  <span className="project-React">
+                    <SiFastapi className="project-skill-logo" />
+                    FastAPI
+                  </span>
+                  <span className="project-Python">
+                    <AiOutlinePython className="project-skill-logo"/>
+                    Python
+                  </span>
+                  <span className="project-CSS">
+                    <SiDuckdb className="project-skill-logo"/>
+                    DuckDB
+                  </span>
+                  </div>
+                </div>
+              </div>
+ 
+            </div>
+
+            <div className="project-listing-content">
+
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <p className="project-paragraph"> A Natural Language → SQL analytics tool that prioritizes transparency by exposing schema, generated SQL, and execution results.
+                    
+                  </p>
+                  <img className="listing-photo" src={nl2sql} alt="PitchSearch Logo" />
+                </div>
+                <a href="https://nl2sql-frontend-jet.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="view-project-btn">Demo</button>
+                </a>
+              </div>
+
+            </div>
+          </div>  
+
+
+
+
+
 
 
           <div className="project-listing">
